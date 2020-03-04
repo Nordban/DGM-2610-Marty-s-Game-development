@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
+
+
+    // Not Currently Using This Script.
+
+
     private bool canJump = false;
     private Rigidbody playerRigidbody;
     private Quaternion targetModelRotation;
