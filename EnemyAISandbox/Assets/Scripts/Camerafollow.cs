@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Camerafollow : MonoBehaviour
 {
-
+    public GameObject target;
     public List<GameObject> enemies;
     public bool watchEnemy = false;
     public int currentEnemy = 0;
     [SerializeField]
     private Camera mainCamera;
-    [SerializeField]
-    private GameObject target;
+    //[SerializeField]
+    //private GameObject target;
 
     
     public PlayerMovment player;
@@ -19,7 +19,7 @@ public class Camerafollow : MonoBehaviour
     void Start()
     {
         mainCamera = GetComponent<Camera>();
-        target = GameObject.Find("Player");
+        //target = GameObject.Find("Player");
         //player = target.GetComponent<PlayerMovment>();
 
         //mainCamera.transform.position = player.PlayerTransform();

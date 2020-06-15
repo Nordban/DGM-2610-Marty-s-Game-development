@@ -24,8 +24,8 @@ public class PlayerMovment : MonoBehaviour
     void Start()
     {
         player = this.gameObject;
-        PlayerTransform();
-        characterController = player. GetComponent<CharacterController>();
+        //PlayerTransform();
+        characterController = gameObject.GetComponent<CharacterController>();
     }
 
 
@@ -35,11 +35,11 @@ public class PlayerMovment : MonoBehaviour
         Move();
     }
 
-    public Vector3 PlayerTransform()
-    {
-        playerTransformPosition = player.transform.position;
-        return playerTransformPosition;
-    }
+    //public Vector3 PlayerTransform()
+    //{
+    //    playerTransformPosition = player.transform.position;
+    //    return playerTransformPosition;
+    //}
 
     void Move()
     {

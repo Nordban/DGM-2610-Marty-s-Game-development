@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
     public GameObject player;
     public GameObject deadPlayer;
     public TextMeshProUGUI deathTxt;
-
+    public CharacterController character;
     private readonly int damage = 10;
 
     // Start is called before the first frame update
@@ -64,14 +64,21 @@ public class PlayerHealth : MonoBehaviour
     void Death()
     {
         Debug.Log("opps i died");
+        deathTxt.gameObject.SetActive(true);
+        //character = gameObject.GetComponentInParent<CharacterController>();
+        character.enabled = false;
+        character.GetComponent<SimpleMove>().enabled = false;
+        character.transform.position = new Vector3(this.transform.position.x, -.5f, this.transform.position.z);
+        this.gameObject.transform.Rotate(Vector3.right,-45f);
+        player.GetComponent<Rigidbody>().Sleep();
 
-        GameObject dead = Instantiate(deadPlayer);
-        player.transform.rotation = player.transform.rotation * Quaternion.AngleAxis(-90,Vector3.forward);
-        //player.gameObject.GetComponent<CharacterController>().enabled = false;
-        // make the player object rotate backwords for the death pose
-        dead.transform.position = player.transform.position;
-        dead.transform.rotation = Quaternion.Euler(180, player.transform.rotation.y, 0);
-        player.SetActive(false);
-        deathTxt.enabled = true;
+        //GameObject dead = Instantiate(deadPlayer);
+        //player.transform.rotation = player.transform.rotation * Quaternion.AngleAxis(-90,Vector3.forward);
+        ////player.gameObject.GetComponent<CharacterController>().enabled = false;
+        //// make the player object rotate backwords for the death pose
+        //dead.transform.position = player.transform.position;
+        //dead.transform.rotation = Quaternion.Euler(180, player.transform.rotation.y, 0);
+        //player.SetActive(false);
+        
     }
 }

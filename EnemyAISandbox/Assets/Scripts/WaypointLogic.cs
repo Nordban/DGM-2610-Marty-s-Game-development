@@ -17,7 +17,7 @@ public class WaypointLogic : MonoBehaviour
         {
             //Debug.Log("Enemy " + other.name + "is here.");
             //update waypoint number in BasicEnemyAI script
-            other.gameObject.GetComponent<BasicEnemyAI>().currentWaypointNumber++;
+            //other.gameObject.GetComponent<BasicEnemyAI>().currentWaypointNumber++;
         }
     }
 }
