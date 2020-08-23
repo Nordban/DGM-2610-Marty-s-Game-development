@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b8acd2e5ea571aa44b443a5bbc20dd32
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Annabel 1
+  fontNames:
+  - Annabel 1
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 02a35586f0b08d848b39192fc87cd646, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

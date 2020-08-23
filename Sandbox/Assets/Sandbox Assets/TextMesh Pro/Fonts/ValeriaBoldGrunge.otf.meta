@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e2f96a8ad808ce9478fa0199749da965
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Valeria Bold Grunge
+  fontNames:
+  - Valeria Bold Grunge
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 40a6a18c762eb694aad5ab2f203905b2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,6 +7,13 @@ TagManager:
   - Enemy
   - PlayerArm
   - RootAttack
+  - EnemySpawnPoint
+  - EnemyWaypoint
+  - Head
+  - EnemyNavMeshAgent
+  - EnemyArm
+  - Boss
+  - Abyss
   layers:
   - Default
   - TransparentFX
@@ -23,12 +30,12 @@ TagManager:
   - RootAttack
   - LeftArm
   - RightArm
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - HeatAreaDamage
+  - Level
+  - Cave
+  - Sand
+  - EnemyHitBox
+  - Abyss
   - 
   - 
   - 

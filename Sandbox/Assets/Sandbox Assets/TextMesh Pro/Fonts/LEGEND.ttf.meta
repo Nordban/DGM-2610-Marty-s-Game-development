@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1f8bfa4441aa8224895bb531be75a37c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: LEGEND
+  fontNames:
+  - LEGEND
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 68fdbeb9ae8f43340bbcb5c92f702ff1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
